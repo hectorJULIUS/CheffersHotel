@@ -1,0 +1,116 @@
+body{
+   background-color: #CB904D;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   text-align: center;
+
+}
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+}
+h1.tittle{
+    text-align: left;
+    color: #B58DB6;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}h1.tittle:hover{
+    text-decoration: overline;
+    color:#99469b ;
+}
+/* navbar*/
+.navbar{
+    background-color: #B58DB6;
+    overflow: hidden;
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 15px;
+    border-right: 2px solid white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.navbar ul li:hover{
+    background-color:white ;
+}
+.navbar ul li:hover a{
+    color: #B58DB6;
+    text-decoration: underline;
+}
+img{
+    height: 50vhx;
+    width: 100%;
+}
+
+/* welcome section*/
+.welcome{
+    background-image: url('images/crew-szCvt1gP2d4-unsplash.jpg');
+    color: white;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome h1{
+    font-size: 50px;
+    font-style: italic;
+    padding: 20px;
+  
+}
+.welcome h1:hover{
+    background-color:#B58DB6;
+    padding: 20px;
+    font-size: 52px;
+    transition: .7s;
+
+}
+.welcome p{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 20px;
+    width: 70%;
+    line-height: 32px;
+}
+.welcome .btn{
+    background-color: #B58DB6;
+    border: 2px solid #B58DB6;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+.welcome .btn:hover{
+   transition: ease .5;
+   font-size: 10px;
+   font-weight: 400;
+   
+   box-shadow: 114px 93px 56px -16px rgba(15,14,15,0.94);
+   -webkit-box-shadow: 114px 93px 56px -16px rgba(15,14,15,0.94);
+   -moz-box-shadow: 114px 93px 56px -16px rgba(15,14,15,0.94); 
+}
+/* table*/
+table img{
+    width: 300px;
+    height: auto;
+}
+table h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    font-size: 50px;
+    font-weight: 300;
+}
+.credits{
+    background:linear-gradient(60deg, #B58DB6,white);
+    padding: 30px;
+    color: black;
+}
